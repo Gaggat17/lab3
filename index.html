@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="utf-8">
+        <title>Personal Site</title>
+   </head>
+    <style>
+    </style>
+    <body>
+            <img src="personal.jpg" alt="The Score - logo" style="width: 300px; height: 300px;">
+                    <h1>Євгеній Шуліко Олександрович</h1> 
+                    <h2>Улюблені заняття/хобі</h2>
+                    <ol type="1">
+                        <!-- Задав для елеентів class, який допомже в external css для заповнення атрибутами -->
+                        <li class="most_useful">Спорт (тренування)</li>
+                        <!-- Задав для елеентів class, який допомже в external css для заповнення атрибутами -->
+                        <li class="most_useful">Вивчення англійської мови</li>
+                        <li>Ігри</li>
+                        <li>Музика</li>
+                        <li>Інколи полюбляю читати книжки</li>
+                    </ol>     
+                    <h2>Улюблені Групи (Музика)</h2>
+                    <ul type="disc">
+                        <!-- Задав для елеентів class, який допомже в external css для заповнення атрибутами -->
+                        <li class="most_useful">The Score</li>
+                        <li class="most_useful">Imagine Dragons</li>
+                    </ul> 
+                <hr>
+                <a href="https://www.instagram.com/smartsfact/">Instagram</a>
+                <a href="https://www.instagram.com/smartsfact/">Contact me</a>
+        <br>
+        <!-- Задав для заголовку 2 рівня id, який допомже в external css для заповнення атрибутами -->
+        <h2 id="scill">Scills</h2>
+        <!-- Об'явив таблицю, та задав їй ширину, висоту, внутрішні та зовнішні відступи між комірками -->
+        <table cellspacing="10px" cellpadding="10px" style="background-color: white; color: chocolate;">
+        <tr>
+            <!-- Знайшов в інтернет мережі (об'явлення набором символів) символ зірочку -->
+            <td>HTML - &#11088;&#11088;&#11088;&#11088;&#11088;</td>
+            <td>CSS - &#11088;&#11088;&#11088;&#11088;</td>
+        </tr>
+        <tr>
+            <td>Javascript - &#11088;&#11088;</td>
+            <td>C++ - &#11088;</td>
+        </tr>
+        <tr>
+            <td>Python - &#11088;&#11088;&#11088;</td>
+            <td>Painting - &#11088;&#11088;&#11088;</td>
+        </tr>
+        <!-- Об'єднав 3 останні комірки таблиці в 2, за допомогою атрибута colspan 2 --> 
+        <tr class="most_useful">
+            <td>Math - &#11088;&#11088;&#11088;</td>
+            <td>Grammar - &#11088;&#11088;&#11088;&#11088;&#11088;</td>
+        </tr>
+        <!-- Об'єднав 3 останні комірки таблиці в 2, за допомогою атрибута colspan 2 --> 
+        <tr>
+            <td colspan="2">Ukrainian Knowledge - &#11088;&#11088;&#11088;&#11088;&#11088;</td>
+        </tr>
+        <tr>
+            <td colspan="2">Russian Knowledge - &#11088;&#11088;&#11088;&#11088;&#11088;</td>
+        </tr>
+        <!-- Задав для елеентів class, який допомже в external css для заповнення атрибутами -->
+        <tr class="most_useful">
+            <td colspan="2">English Knowledge - &#11088;&#11088;&#11088;&#11088;</td>
+        </tr>
+    </table>
+    <h1><a href="">Контаки</a></h1>
+    <!-- Створив форму по прикладу -->
+    <form action="mailto:evgeniy.shuliko78@gmail.com" method="post" enctype="text/plain">
+        <label for="name">Your Name:</label>
+        <!-- Додав інпут для імені -->
+        <input type="text" name="user_name" placeholder="Ваше ім'я">
+        <br>
+        <br>
+        <!-- Додав інпут для введення пошти -->
+        <label for="name">Your Email:</label>
+        <input type="email" name="user_email" placeholder="Ваша пошта">
+        <br>
+        <br>
+        <!-- Додав інпут для введення повідомлення -->
+        <label for="name">Message  :</label><br>
+        <textarea name="YourMessage" rows="10" cols="30"></textarea><br>   
+        <input type="submit">
+    </form>        
+    </body>
+</html>
